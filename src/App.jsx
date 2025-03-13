@@ -1,5 +1,5 @@
 import './App.css'
-import Counter from './components/counter/counter-v3.jsx';
+import Counter from './components/counter/counter-v4.jsx';
 
 function App() {
 
@@ -11,6 +11,8 @@ function App() {
       <Counter step={3} decr={true} />
       <hr />
       <Counter step={[1, 5, 10]} decr={true} />
+      <hr />
+      <Counter step={[1, 3, 10]} decr={true} limit={42} />
     </>
   )
 }

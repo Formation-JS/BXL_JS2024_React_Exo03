@@ -13,10 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   display: flex;
+  padding: 1ch;
   flex-direction: column;
+  width: 100vw;
   min-width: 320px;
   min-height: 100vh;
 }
